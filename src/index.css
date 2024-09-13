@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SpaceInvaders';
+    src: url('./PressStart2P-vaV7.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/earth-view-from-space.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    position: relative;
+}
+#container canvas, #hi-score {
+    position: absolute;
+}
+
+#hi-score {
+    background-color: rgba(0, 0, 0, 0.5);
+}

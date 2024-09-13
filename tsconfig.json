@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "importHelpers": true,
+    "sourceMap": true,
+    "lib": [
+      "decorators",
+      "dom",
+      "es5",
+      "scripthost",
+      "dom"
+    ]
+  }
+}
